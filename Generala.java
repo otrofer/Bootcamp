@@ -31,7 +31,7 @@ public class Generala {
                 esGenerala = true;
             }
         }
-// hintente hacer para cada patron, en este caso si ve que 4 son iguales, poker pasa a true.
+// intente hacer para cada patron, en este caso si ve que 4 son iguales, poker pasa a true.
         for (int i = 1; i <= 6; i++) {
             if (conteo[i] == 4) {
                 esPoker = true;
@@ -72,6 +72,7 @@ public class Generala {
     try (Scanner usuario = new Scanner(System.in)) {
         Generala jugar = new Generala();
 
+        // la parte final.
         for (int i = 0; i < 5; i++) {
             while (true) {
                 System.out.print("Ingrese el valor del dado " + (i + 1) + " (De 1 al 6): ");
