@@ -73,6 +73,7 @@ public class Generala {
     try (Scanner usuario = new Scanner(System.in)) {
         Generala jugar = new Generala();
 
+        // la parte final.
         for (int i = 0; i < 5; i++) {
             while (true) {
                 System.out.print("Ingrese el valor del dado " + (i + 1) + " (De 1 al 6): ");
