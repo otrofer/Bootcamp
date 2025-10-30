@@ -1,4 +1,5 @@
 import java.util.Arrays;
+
 import java.util.Scanner;
 
 public class Generala {
@@ -31,7 +32,7 @@ public class Generala {
                 esGenerala = true;
             }
         }
-// hintente hacer para cada patron, en este caso si ve que 4 son iguales, poker pasa a true.
+// intente hacer para cada patron, en este caso si ve que 4 son iguales, poker pasa a true.
         for (int i = 1; i <= 6; i++) {
             if (conteo[i] == 4) {
                 esPoker = true;
