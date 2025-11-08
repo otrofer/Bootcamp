@@ -1,0 +1,148 @@
+* {
+    padding: 0;
+    margin: 0;
+    background-color: #F7F9FC;
+
+}
+h1 {
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color:  #001F54;
+    padding: 2.5rem;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 2.3rem;
+    color: #FFFF;
+    box-shadow: 10px;
+
+}
+h1 img {
+
+    width: 100px;
+    margin: 0 1rem;
+    height: 100px;
+    border-radius: 10px;
+
+}
+h2 {
+
+    margin: 2rem auto;
+    background-color: #83b6d7;
+    text-align: center;
+    padding: 2rem;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: #ffff;
+    text-shadow: #000000 0px 2px;
+    font-size: 2.5rem;
+
+}
+
+table {
+
+    background-color:   #5B7DB1;
+    width: 70%;
+    padding: 1rem;
+    margin: 2rem auto;
+    box-shadow: 5px 5px;
+}
+td, th {
+    padding: 1rem;
+    border: 1px solid #C0C0C0;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 1.5;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: #DADADA;
+    border-radius: 0.3rem;
+    font-size: 1rem;
+
+}
+table thead th {
+
+    background-color: #C0C0C0;
+}
+
+/* Columnas específicas con color distinto */
+th:nth-child(9) {
+      background-color: #C0C0C0;; /* Color distinto para estas columnas */
+}
+
+td img {
+    width: 50px;
+    border-radius: 25%;
+    display: block;
+    width: 100px;
+    justify-content: center;
+    align-items: center;
+}
+
+td:hover {
+
+    transition: transform 0.5s ease-in-out;
+    transform: scale(1.2);
+}
+
+td.club {
+    display: flex;
+    justify-content: flex-start; /* se ve alineado */
+    align-items: center;
+    gap: 0.5rem;
+}
+td.club img {
+
+    width: 80px;
+    height: 80px;
+}
+
+th.img {
+
+    background-color: 3p;
+}
+
+th:nth-child(){
+
+background-color: #5B7DB1;
+}
+th:nth-child() {
+
+    background-color: #5B7DB1;
+}
+
+h3 {
+    
+    display: flex;
+    justify-content: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    
+}
+/*
+.noticias {
+
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+
+}
+.noticias img {
+
+    width: 100%;
+    padding-right: 100%;
+
+}
+.cerro_celebra h3 {
+
+    justify-content: center;
+    display: flex;
+    padding: 50px;
+}
+
+ colores a probar: 
+Azul marino (#001F54)
+
+Blanco puro (#FFFFFF)
+
+Azul grisáceo (#5B7DB1)
+
+Plateado claro (#C0C0C0) */ 
