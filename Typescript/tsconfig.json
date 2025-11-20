@@ -1,0 +1,23 @@
+{
+  "compilerOptions": {
+    // Generales
+    "target": "es6",
+    "module": "commonjs",
+    "esModuleInterop": true,
+    "strict": true,
+    "skipLibCheck": true,
+    "sourceMap": true,
+
+    // Node.js
+    "types": ["node"],
+    "lib": ["esnext"],
+
+    // Opcional: declarar archivos .d.ts y maps
+    "declaration": true,
+    "declarationMap": true,
+
+    // Carpeta de salida
+    "outDir": "./dist"
+  },
+  "include": ["*.ts"]
+}
